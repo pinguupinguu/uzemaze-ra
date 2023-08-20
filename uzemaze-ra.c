@@ -76,7 +76,7 @@ static void printstrcol(u8 x, u8 y, char *str, u8 fgc, u8 bgc) {
 		PrintChar(x++, y, ch);
 	}
 }
-char* names[13] ={
+char* names[15] ={
 	"HEXADIGITAL",
 	"STINGX2",
 	"DAROACHIE",
@@ -89,7 +89,9 @@ char* names[13] ={
 	"NEOMAR",
 	"ZEERA",
 	"LABUFF",
-	"TRIFORCE"
+	"TRIFORCE",
+	"LADYLUMINA",
+	"PINGUUPINGUU"
 	
 };
 static void GetUser(u8 target){
